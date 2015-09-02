@@ -1,0 +1,8 @@
+{
+  "name": "iRailTelegram",
+  "description": "Telegram bot for interacting with iRail",
+  "repository": "https://github.com/MCautreels/iRailTelegram",
+  "logo": "",
+  "keywords": [],
+  "image": "heroku/nodejs"
+}
