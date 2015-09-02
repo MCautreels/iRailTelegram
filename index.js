@@ -19,8 +19,6 @@ telegramBot.on('text', function (msg) {
     var from = parts[0].trim();
     var to = parts[1].trim();
 
-    telegramBot.sendMessage(chatId, 'Even geduld ... Jan de Conducteur haalt de gegevens op');
-
     request('http://api.irail.be/connections/?from=' + from + '&to=' + to + '&format=json', function (error, response, body) {
       if (!error && response.statusCode == 200) {
         var result = JSON.parse(body);
